@@ -1,0 +1,63 @@
+#productsPage {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#productsPage .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0px auto;
+}
+#productsPage .row .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 0 solid blue;
+    border-radius: 15px;
+    min-width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+#productsPage .row .box img {
+    max-width: 120px;
+    max-height: 150px;
+}
+#productsPage .row .box .productPrice {
+    position: absolute;
+    color: white;
+    padding: 3px 5px;
+    background-color: red;
+    right: 10px;
+    top: -13px;
+    z-index: -1;
+    border-radius: 10px;
+    font-size: 17px;
+}
+#productsPage .row .box  .productRate {
+    align-self: baseline;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#productsPage .row .box  .productRate input[type='range'] {
+    width: 100%;
+    accent-color:rgb(255, 213, 0);
+}
+#productsPage .row .box .addToCart {
+    background-color:rgba(0, 0, 0, 0.486);
+    padding: 5px 10px;
+    border-radius:30px;
+    color:white;
+    font-size: 16px;
+}
+#productsPage .row .box .addToCart:hover{
+    color:green;
+    background-color:whitesmoke;
+    border:1px solid green
+}
+/* rate */

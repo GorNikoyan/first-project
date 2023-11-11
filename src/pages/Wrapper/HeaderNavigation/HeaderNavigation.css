@@ -1,0 +1,124 @@
+.headerNav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.headerNav nav {
+    display: flex;
+    justify-content: space-between
+}
+.headerNav nav #userInfo {
+    padding: 10px;
+    margin-top: 16px;
+    margin-right: 30px;
+}
+.headerNav nav #navmenu {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+   
+}
+.headerNav .dropdown {
+    position: relative;
+    display: block;
+    margin-inline: 5px;
+}
+
+.headerNav .button:hover{
+    color: rgb(62, 58, 58);
+    cursor: pointer;
+}
+.headerNav #list-items {
+    display: none;
+    margin: 0;
+    position: absolute;
+    right: -67px;
+    top: 30px;
+    width: 156.5px;
+    z-index: 1;
+}
+.headerNav #list-items li {
+    display: block;
+    font-size: 15px;
+    border-Radius:10px;
+    margin: 3px;
+    background-color: rgb(70, 60, 60);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerNav #list-items li:hover{
+    color: rgb(97, 94, 94);
+    cursor: pointer;
+}
+.headerNav #list-items li a {
+    text-decoration: none;
+    color:white
+}
+.headerNav #list-items li a:hover{
+    color: rgb(97, 94, 94);
+}
+#userInfo .cart {
+    color:#0080008c;
+    cursor: pointer;
+}
+
+.headerNav #myModal {
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    background-color:white;
+    max-width: 510px;
+    z-index: 999;
+    color: Black;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+
+.headerNav .show-modal {
+    animation: show 0.5s;
+}
+@keyframes show {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+ 
+.headerNav #myModal img{
+    max-width: 55px;
+}
+.headerNav form .box .icon {
+    padding: 10px;
+    border: 1px solid rgb(47, 47, 47);
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.headerNav  #myModal table {
+    width: 100%;
+}
+.headerNav  #myModal table button {
+    padding: 2px 9px;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 50%;
+    color: blue;
+    cursor: pointer;
+}
+.headerNav  #myModal table button:hover{
+    opacity: 0.5;
+}
+
+.headerNav #myModal td {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}

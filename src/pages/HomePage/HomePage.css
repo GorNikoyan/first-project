@@ -1,0 +1,39 @@
+
+#HeroSection .info {
+    padding: 20px;
+}
+#HeroSection .info h1 {
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    color:blueviolet
+}
+#HeroSection .info p {
+    font-size: 22px;
+    font-family: sans-serif;
+    /* color:blueviolet */
+}
+#Electronics {
+    background-image: url("https://www.apple.com/euro/iphone-14-pro/b/screens_alt/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg");
+}
+#MansClothing {
+    background-image: url("https://www.primermagazine.com/wp-content/uploads/2021/06/mens-clothing-brands_wide.jpg");
+}
+#WomansClothing {
+    background-image:url("https://digitalcontent.api.tesco.com/v2/media/homepage/29ee291e-6527-488c-95da-bc542d899b58/2312-FF-HERO-Carousel-734x380-1.jpeg")
+}
+#Jewelery{
+    background-image: url("https://techbullion.com/wp-content/uploads/2023/03/affordable-jewellery-brands-63ff813128858.jpg")
+}
+section {
+    border-radius:30px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
