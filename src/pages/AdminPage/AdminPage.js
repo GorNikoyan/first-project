@@ -163,7 +163,7 @@ const AdminPage = () => {
         }
     return password = password.join('')
    }
-//    console.log(blockedUsers);
+   console.log(usersData);
     return (
         <div id='adminPage'>
             <div>
