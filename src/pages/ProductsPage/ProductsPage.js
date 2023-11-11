@@ -18,6 +18,8 @@ const ProductsPage = () => {
     let currentUserLocalStorage = JSON.parse(localStorage.getItem("currentUser"));
     let isAdminAuthLocalStorage = JSON.parse(localStorage.getItem("isAuthAdmin"));
     console.log(currentUserLocalStorage);
+    console.log(products);
+
     const dispatch = useDispatch();
     const {cart} = useSelector(selectCartData)
  
